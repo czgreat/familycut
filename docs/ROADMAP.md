@@ -1,32 +1,40 @@
 # Roadmap
 
-This public release is a cleaned, source-focused baseline. It is intended to be usable by developers, but each deployment still needs local configuration.
+**Language:** English | [中文](ROADMAP.zh-CN.md)
 
-## Complete enough to use
+This roadmap describes the public repository state for `familycut`. It separates what is ready to use from what each user should complete in their own environment.
 
-- Backend, admin web, mobile web, and Android source are present
-- Docker example includes Postgres and Redis
-- Example environment file is included
-- Backend compile check passes
+## Complete Enough To Use
 
-## Needs local completion
+- Backend domain model and APIs
+- Admin and mobile web skeletons
+- Docker backend stack
+- Public-safe architecture notes
 
-- Strong JWT secret
-- Database and Redis configuration
-- A decision on AI nutrition provider
-- Optional webhook notification provider
-- Android signing keys if publishing APKs
+## Needs Local Completion
 
-## Suggested improvements
+- Seed or onboarding flow for first household setup
+- Production-grade auth/session policy
+- Backup and restore workflow for personal data
+- Release build workflow for Android
 
-- Create seed/demo data that contains no personal information
-- Add screenshots for admin and mobile flows
-- Harden production auth and rate limits
-- Prepare Android release signing docs for a chosen store/channel
+## Suggested Improvements
 
-## Documentation still worth adding
+- Add first-run setup wizard
+- Add end-to-end tests for member and measurement flows
+- Improve mobile PWA offline behavior
+- Document backup/restore operations
 
-- Real screenshots or short demo videos.
-- A known-good production deployment example for a generic Linux host.
-- Troubleshooting notes collected from real user deployments.
+## Documentation Still Worth Adding
 
+- Screenshots or short screen recordings using non-private demo data.
+- A fuller API example page for common requests and responses.
+- Backup and restore notes for any persistent data path.
+- A troubleshooting page based on real public issues once users start deploying it.
+
+## Maintenance Notes
+
+- Keep public examples generic.
+- Keep English and Chinese instructions aligned.
+- Prefer small issues and pull requests so AI-assisted contributors can work safely.
+- Re-run sensitive-data scans before publishing new releases.
