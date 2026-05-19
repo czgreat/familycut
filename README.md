@@ -63,3 +63,9 @@ Do not commit personal records, images, exported reports, databases, production 
 
 MIT
 
+## More documentation
+
+- [Deployment guide](docs/DEPLOYMENT.md)
+- [AI handoff guide](docs/AI_HANDOFF.md)
+- [Roadmap](docs/ROADMAP.md)
+
