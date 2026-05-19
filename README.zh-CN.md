@@ -18,6 +18,18 @@ FamilyCut 是面向家庭私有使用的健康/减脂追踪系统，覆盖体重
 - Android 客户端壳用于打包实验
 - 提供 PostgreSQL 和 Redis 示例部署
 
+## 适合谁
+
+- 私有运行健康追踪的家庭或小团队
+- 扩展 FastAPI + React 自托管应用的开发者
+- 希望源码可公开但个人数据保持私有的用户
+
+## 不适合
+
+- 公开真实健康记录或照片
+- 医疗决策
+- 未替换密钥和复核鉴权/会话策略前的生产使用
+
 ## 当前公开版状态
 
 已经可以使用：
@@ -99,8 +111,11 @@ cd ../mobile-web && npm run build
 | 主题 | 中文 | English |
 |---|---|---|
 | 部署 | [docs/DEPLOYMENT.zh-CN.md](docs/DEPLOYMENT.zh-CN.md) | [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) |
+| 使用/API 示例 | [docs/USAGE_EXAMPLES.zh-CN.md](docs/USAGE_EXAMPLES.zh-CN.md) | [docs/USAGE_EXAMPLES.md](docs/USAGE_EXAMPLES.md) |
+| 截图 | [docs/SCREENSHOTS.zh-CN.md](docs/SCREENSHOTS.zh-CN.md) | [docs/SCREENSHOTS.md](docs/SCREENSHOTS.md) |
 | AI 接手 | [docs/AI_HANDOFF.zh-CN.md](docs/AI_HANDOFF.zh-CN.md) | [docs/AI_HANDOFF.md](docs/AI_HANDOFF.md) |
 | 路线图 | [docs/ROADMAP.zh-CN.md](docs/ROADMAP.zh-CN.md) | [docs/ROADMAP.md](docs/ROADMAP.md) |
+| 更新日志 | [CHANGELOG.zh-CN.md](CHANGELOG.zh-CN.md) | [CHANGELOG.md](CHANGELOG.md) |
 
 ## AI 辅助开发说明
 

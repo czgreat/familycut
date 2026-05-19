@@ -18,6 +18,18 @@ FamilyCut is a private household health and fitness tracker for measurements, me
 - Android client shell for packaging experiments
 - PostgreSQL and Redis example deployment
 
+## Who This Is For
+
+- Families or small groups running private health tracking
+- Developers extending FastAPI + React self-hosted apps
+- Users who want public-safe source code but private personal data
+
+## Not For
+
+- Publishing real health records or photos
+- Medical decision making
+- Production use before replacing secrets and reviewing auth/session policy
+
 ## Current Public Release
 
 Ready to use:
@@ -99,8 +111,11 @@ cd ../mobile-web && npm run build
 | Topic | English | Chinese |
 |---|---|---|
 | Deployment | [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) | [docs/DEPLOYMENT.zh-CN.md](docs/DEPLOYMENT.zh-CN.md) |
+| Usage/API examples | [docs/USAGE_EXAMPLES.md](docs/USAGE_EXAMPLES.md) | [docs/USAGE_EXAMPLES.zh-CN.md](docs/USAGE_EXAMPLES.zh-CN.md) |
+| Screenshots | [docs/SCREENSHOTS.md](docs/SCREENSHOTS.md) | [docs/SCREENSHOTS.zh-CN.md](docs/SCREENSHOTS.zh-CN.md) |
 | AI handoff | [docs/AI_HANDOFF.md](docs/AI_HANDOFF.md) | [docs/AI_HANDOFF.zh-CN.md](docs/AI_HANDOFF.zh-CN.md) |
 | Roadmap | [docs/ROADMAP.md](docs/ROADMAP.md) | [docs/ROADMAP.zh-CN.md](docs/ROADMAP.zh-CN.md) |
+| Changelog | [CHANGELOG.md](CHANGELOG.md) | [CHANGELOG.zh-CN.md](CHANGELOG.zh-CN.md) |
 
 ## AI-Assisted Development
 
