@@ -1,0 +1,8 @@
+:80 {
+    encode gzip zstd
+
+    @api path /api/* /healthz /docs /openapi.json
+    reverse_proxy @api backend:8000
+
+    respond / "FamilyCut backend is running" 200
+}

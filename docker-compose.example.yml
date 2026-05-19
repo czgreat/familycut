@@ -1,0 +1,27 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: familycut
+      POSTGRES_USER: familycut
+      POSTGRES_PASSWORD: familycut
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7
+
+  backend:
+    build:
+      context: ./backend
+    env_file: .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/data
+    depends_on:
+      - postgres
+      - redis
+
+volumes:
+  postgres_data:

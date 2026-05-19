@@ -1,0 +1,5 @@
+*
+!admin-web/
+!admin-web/**
+!mobile-web/
+!mobile-web/**
